@@ -2,9 +2,9 @@ package pl.webcache.petfactory;
 
 import java.util.List;
 
-import pl.webcache.petfactory.bufferedinstances.IPetBoxUpdater;
 import pl.webcache.petfactory.bufferedinstances.PetBoxUpdatersFactory;
 import pl.webcache.petfactory.bufferedinstances.model.PetBox;
+import pl.webcache.petfactory.bufferedinstances.updaters.IPetBoxUpdater;
 
 public class PetBoxUpdateService {
 

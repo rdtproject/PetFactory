@@ -1,4 +1,4 @@
-package pl.webcache.petfactory.bufferedinstances;
+package pl.webcache.petfactory.bufferedinstances.updaters;
 
 import pl.webcache.petfactory.bufferedinstances.model.PetBox;
 

@@ -7,6 +7,11 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import pl.webcache.petfactory.bufferedinstances.updaters.AddLogo;
+import pl.webcache.petfactory.bufferedinstances.updaters.DoNothing;
+import pl.webcache.petfactory.bufferedinstances.updaters.IPetBoxUpdater;
+import pl.webcache.petfactory.bufferedinstances.updaters.PaintOnGreen;
+
 /**
  * Depending on the box type (id) we should do always some specific updates
  * before providing the box to the users

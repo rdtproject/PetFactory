@@ -1,4 +1,4 @@
-package pl.webcache.petfactory;
+package pl.webcache.petfactory.bufferedinstances;
 
 import static org.hamcrest.CoreMatchers.not;
 import static org.junit.Assert.assertThat;
@@ -11,11 +11,11 @@ import java.util.Set;
 
 import org.junit.Test;
 
-import pl.webcache.petfactory.bufferedinstances.AddLogo;
-import pl.webcache.petfactory.bufferedinstances.DoNothing;
-import pl.webcache.petfactory.bufferedinstances.IPetBoxUpdater;
-import pl.webcache.petfactory.bufferedinstances.PaintOnGreen;
 import pl.webcache.petfactory.bufferedinstances.PetBoxUpdatersFactory;
+import pl.webcache.petfactory.bufferedinstances.updaters.AddLogo;
+import pl.webcache.petfactory.bufferedinstances.updaters.DoNothing;
+import pl.webcache.petfactory.bufferedinstances.updaters.IPetBoxUpdater;
+import pl.webcache.petfactory.bufferedinstances.updaters.PaintOnGreen;
 
 public class PetBoxUpdatersFactoryTest {
 
